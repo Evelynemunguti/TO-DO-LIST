@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+    justify-items: center;
+}
+.container{
+    background-color: rgb(80, 7, 2);
+    width: 400px;
+    height: 400px;
+   justify-items: center;
+   padding-top: 30px;
+
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+input{
+    padding: 7px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(204, 226, 245);
+}
+button{
+    border-radius: 100px;
+    padding: 8px;
+    border-style: none;
+    background-color: rgb(204, 226, 245);
+}
