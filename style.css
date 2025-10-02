@@ -25,5 +25,14 @@ button{
     border-radius: 100px;
     padding: 8px;
     border-style: none;
+    background-color: rgb(181, 217, 248);
+}
+
+.type{
+    margin-bottom: 50px;
     background-color: rgb(204, 226, 245);
+    border-radius: 10px;
+}
+.list-el{
+    gap:10px;
 }
