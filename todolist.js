@@ -13,7 +13,15 @@ saveEl.addEventListener("click",function(){
         alert("Please enter a ask");
     }
    else{
-    listEl.innerHTML += `<div>${todo} </div>`;
+    listEl.innerHTML += `<div style ="
+    padding:7px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(204, 226, 245);">
+    ${todo} 
+    </div>`;
+
     dataEl.value="";
    }
     
