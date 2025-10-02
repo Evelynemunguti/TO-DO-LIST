@@ -2,7 +2,7 @@ const cont = document.getElementsByClassName("container");
 const type = document.getElementsByClassName("type");
 const dataEl = document.getElementById("data-el");
 const saveEl = document.getElementById("save-el");
-const listEl = document.getElementById("list-el");
+const listEl = document.querySelector(".list-el");
 
 
 saveEl.addEventListener("click",function(){
@@ -12,9 +12,11 @@ saveEl.addEventListener("click",function(){
     if(todo===""){
         alert("Please enter a ask");
     }
-    else{
-        console.log(todo);
-    }
+   else{
+    listEl.innerHTML += `<div>${todo} </div>`;
+    dataEl.value="";
+   }
+    
 
 })
     
